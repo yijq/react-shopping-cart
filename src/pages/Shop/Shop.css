@@ -1,0 +1,8 @@
+.sideBox{
+    display: block;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border: 2px dashed #fff;
+    margin: 5px;
+}

@@ -1,0 +1,66 @@
+.checkout-box{
+    position: fixed;
+    bottom: 0px;
+    height: 50px;
+    width: 100%;
+    border-top: 1px solid #dd0;
+    display: flex;
+    background-color: #fff;
+    z-index: 99;
+    /* background: -webkit-linear-gradient(bottom top, #000,#fff) */
+}
+
+.checkout-box .radio-box{
+    width: 100px;
+    height: 50px;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+}
+
+.checkout-box .total{
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    flex: 1;
+}
+
+.checkout-box .checkout-button {
+    height: 50px;
+    width: 80px;
+    float: right;
+    background-color: #dd0;
+    text-align: center;
+    line-height: 50px;
+}
+
+/*
+.my-radio>.ant-radio-checked {
+    background: #dd0;
+    color: #dd0;
+} */
+
+/* .my-radio>.ant-radio-checked>.antd-radio-inner{
+    background-color: #dd0;
+} */
+
+.ant-radio-wrapper:hover .ant-radio .ant-radio-inner, .ant-radio:hover .ant-radio-inner, .ant-radio-focused .ant-radio-inner {
+    border-color: #dd0;
+}
+
+.ant-radio-checked:after {
+    border-color: #dd0;
+}
+
+.ant-radio-checked:after {
+    background-color: #dd0;
+}
+
+.ant-radio-checked .ant-radio-inner {
+    border-color: #dd0;
+}
+.ant-radio-inner:after {
+    background-color: #dd0;
+}
+
+
